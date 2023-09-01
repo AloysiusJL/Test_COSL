@@ -3,12 +3,42 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
   <link rel="stylesheet" href="styles.css">
   <title>Test Scoring App</title>
 </head>
 <body>
   <div class="container">
     <h1>Test Scoring App</h1>
+    <div class="instructions">
+      <span class="tooltip">
+        <span style="font-size: 20px;"><i class="fas fa-question-circle"></i></span>
+        <span class="tooltiptext">
+          <strong>Instructions for Answer Input:</strong>
+          <ul>
+            <li>
+              You can enter your answers using lowercase or uppercase letters (a, b, c, d, e) for options A to E.
+            </li>
+            <li>
+              Alternatively, you can use numbers (1, 2, 3, 4, 5) to represent the options as follows:
+              <ul style="list-style-type: none; padding-left: 0;">
+                <li>1 corresponds to option A</li>
+                <li>2 corresponds to option B</li>
+                <li>3 corresponds to option C</li>
+                <li>4 corresponds to option D</li>
+                <li>5 corresponds to option E</li>
+              </ul>
+            </li>
+            <li>
+              If you leave an answer blank, please use a space or the number 0 as a placeholder.
+            </li>
+            <li>
+              Feel free to enter your answers for each test in the provided text areas. You can mix and match the formats (e.g., "abcde" or "ABCDE" or "12345" or "a1c3e").
+            </li>
+          </ul>
+        </span>
+      </span>
+    </div>
     <form id="testForm">
       <div class="test-form">
         <h2>Sinonim Test</h2>
