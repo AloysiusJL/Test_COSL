@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  <title>Test Scoring App</title>
+</head>
+<body>
+  <div class="container">
+    <h1>Test Scoring App</h1>
+    <form id="testForm">
+      <div class="test-form">
+        <h2>Sinonim Test</h2>
+        <label for="sinonimAnswers">Enter Your Answers:</label>
+        <textarea id="sinonimAnswers" rows="2" placeholder="Enter your answers here..."></textarea>
+        <div class="score" id="sinonimScore"></div>
+      </div>
+      <div class="test-form">
+        <h2>Antonim Test</h2>
+        <label for="antonimAnswers">Enter Your Answers:</label>
+        <textarea id="antonimAnswers" rows="2" placeholder="Enter your answers here..."></textarea>
+        <div class="score" id="antonimScore"></div>
+      </div>
+      <div class="test-form">
+        <h2>Analogi Test</h2>
+        <label for="analogiAnswers">Enter Your Answers:</label>
+        <textarea id="analogiAnswers" rows="2" placeholder="Enter your answers here..."></textarea>
+        <div class="score" id="analogiScore"></div>
+      </div>
+      <div class="test-form">
+        <h2>Pengelompokan Kata</h2>
+        <label for="pengelompokanKataAnswers">Enter Your Answers:</label>
+        <textarea id="pengelompokanKataAnswers" rows="2" placeholder="Enter your answers here..."></textarea>
+        <div class="score" id="pengelompokanKataScore"></div>
+      </div>
+      <div class="test-form">
+        <h2>Numerik Test</h2>
+        <label for="numerikAnswers">Enter Your Answers:</label>
+        <textarea id="numerikAnswers" rows="2" placeholder="Enter your answers here..."></textarea>
+        <div class="score" id="numerikScore"></div>
+      </div>
+      <div class="test-form">
+        <h2>Logic Test</h2>
+        <label for="logicAnswers">Enter Your Answers:</label>
+        <textarea id="logicAnswers" rows="2" placeholder="Enter your answers here..."></textarea>
+        <div class="score" id="logicScore"></div>
+      </div>
+      <div class="test-form">
+        <h2>TOEFL Test</h2>
+        <label for="toeflAnswers">Enter Your Answers:</label>
+        <textarea id="toeflAnswers" rows="2" placeholder="Enter your answers here..."></textarea>
+        <div class="score" id="toeflScore"></div>
+      </div>
+
+      <div class="buttons">
+        <button id="calculateButton" type="submit">Calculate Scores</button>
+        <button id="resetButton" type="button">Reset Form</button>
+      </div>
+    </form>
+    <div id="results">
+      <!-- Scores will be displayed here -->
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
