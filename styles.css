@@ -121,13 +121,35 @@ button:hover {
   margin-left: 5px;
 }
 
+
 .wide-tooltip {
-  width: 450px !important;
+  width: 500px;
 }
+
 
 @media (max-width: 768px) {
   .wide-tooltip {
-    width: 100%; /* Make it full width on smaller screens */
-    max-width: 300px; /* Limit the maximum width */
-    font-size: 14px; /* Adjust the font size */
+    width: 90%;
+    max-width: 400px;
+    font-size: 14px;
   }
+}
+
+@media (max-width: 400px) {
+  .wide-tooltip {
+    width: 100%;
+    font-size: 12px;
+  }
+}
+
+@media (max-width: 340px) {
+  .wide-tooltip {
+    width: 90%;
+    font-size: 10px;
+  }
+}
+
+
+/* Rest of your CSS... */
+
+
