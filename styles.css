@@ -85,3 +85,42 @@ button:hover {
 #resetButton:hover {
   background-color: darkred;
 }
+
+.instructions {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+
+.tooltip {
+  position: relative;
+  display: inline-block;
+  cursor: pointer;
+}
+
+.tooltip .tooltiptext {
+  visibility: hidden;
+  width: 250px;
+  background-color: #333;
+  color: #fff;
+  text-align: left;
+  border-radius: 5px;
+  padding: 10px;
+  position: absolute;
+  top: -5px;
+  right: 110%;
+  z-index: 1;
+}
+
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+}
+
+.tooltip .fa-info-circle {
+  color: #007bff;
+  margin-left: 5px;
+}
+
+.wide-tooltip {
+  width: 450px !important;
+}
